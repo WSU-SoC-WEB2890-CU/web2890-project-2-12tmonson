@@ -7,22 +7,108 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: Project 2 ...">
-
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./stylesheets/main.scss">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
 </head>
 
 <body>
-  <!-- Your HTML goes here -->
-  <h1 class="display-2 text-center my-5 py-5">
-    <span class="d-block py-5 mt-5">
-      <i class="bi bi-filetype-html text-primary"></i> / 
-      <i class="bi bi-filetype-css text-danger"></i> / 
-      <i class="bi bi-filetype-js text-success"></i>
-    </span>
-    
-    Project 2: A multiple-page project of your choosing.
-  </h1>
+  <!--Navbar Section-->
+  <section>
+    <div class="container">
+      <div class="row">
+        <nav class="navbar">
+          <div class="col">
+            <img src="images/assets/MFLogo.png" width="50" height="50" alt="MonsonFlooringLogo">
+          </div>
+          <div class="col">
+            <h1 class="navbar-brand">Monson Flooring</h1>
+          </div>
+          <div class="col">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="./images/assets/Hamburger Menu.png" width="40" height="40" alt="HamburgerIcon">
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </section>
+  <!--Address and Description-->
+  <section>
+    <div class="topHalf">
+      <div class="row justify-content-center">
+        <div class="col position-relative">
+          <div class="imageWrapper">
+            <img src="./images/BedroomFlooring.jpg" alt="BedroomFlooring" class="img-fluid">
+            <h1 class="overlayText position-absolute top-50 start-50 translate-middle">123 Generic Street, Somewhere UT
+            </h1>
+            <p class="overlayDescription position-absolute bottom-0 start-50 translate-middle">We pride ourselves in
+              being a locally owned and operated family business with a customer-focused attention to detail.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Further Navigation-->
+  <section>
+    <div class="bottomHalf position-relative">
+      <div class="imageWrapper">
+        <img src="./images/EmptyOffice.jpg" alt="EmptyOffice" class="img-fluid">
+        <div class="overlayButtons position-absolute top-50 start-50 translate-middle">
+          <p id="touch" class="mb-4">Let's get in touch today</p>
+          <div class="d-flex justify-content-center">
+            <button id="aboutUsButton" type="button" class="btn btn-primary btn-lg me-2">About Us</button>
+            <button id="contactUsButton" type="button" class="btn btn-primary btn-lg">Contact</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Footer-->
+  <section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p>Monson Flooring Inc</p>
+          </div>
+          <div class="col">
+            <ul class="footer-nav list-unstyled d-flex justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/"><img src="./images/assets/Facebook.png" height="25" width="25"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/"><img src="./images/assets/Instagram.png" height="25" width="25"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://twitter.com/?lang=en"><img src="./images/assets/Twitter.png" height="25" width="25"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <p id="copywrite">&copy; Ticen Monson 2023</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
 
   <script type="module" src="./javascripts/main.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
