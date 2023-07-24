@@ -45,25 +45,6 @@ body {
   justify-content: center;
 }
 
-.overlayText {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  z-index: 1;
-  width: 80%;
-}
-
-.overlayDescription {
-  bottom: 33%;
-  left: 50%;
-  transform: translateX(-50%);
-  color: white;
-  z-index: 1;
-  width: 80%;
-  font-family: "Inkfree";
-}
-
 #touch {
   font-size: 2em;
 }
@@ -104,7 +85,10 @@ body {
 /* Tablet Layout */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
-    font-size: 18px;
+    font-size: 2rem;
+  }
+  #logo {
+    display: flex;
   }
 }
 /* Desktop Layout *//*# sourceMappingURL=main.css.map */
