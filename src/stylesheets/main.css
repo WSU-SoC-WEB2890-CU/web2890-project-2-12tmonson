@@ -1,22 +1,19 @@
 /* Mobile Layout */
 @font-face {
-  font-family: 'Caveat';
-  src: url('../images/assets/Caveat-Regular.ttf') format('truetype');
+  font-family: "Caveat";
+  src: url("../images/assets/Caveat-Regular.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: 'Inkfree';
-  src: url('../images/assets/Inkfree.ttf') format('truetype');
+  font-family: "Inkfree";
+  src: url("../images/assets/Inkfree.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: 'Eras Demi ITC';
-  src: url('../images/assets/ITC\ Eras\ Demi\ Regular.otf') format('truetype');
+  font-family: "Eras Demi ITC";
+  src: url("../images/assets/ITC Eras Demi Regular.otf") format("truetype");
 }
-
 body {
   background-color: #59433b;
-  font-family: 'Caveat';
+  font-family: "Caveat";
   color: white;
   border: 0;
   margin: 0;
@@ -64,9 +61,8 @@ body {
   color: white;
   z-index: 1;
   width: 80%;
-  font-family: 'Inkfree';
+  font-family: "Inkfree";
 }
-
 
 #touch {
   font-size: 2em;
@@ -87,27 +83,24 @@ body {
   opacity: 0.65;
 }
 
-
 #satisfy {
   font-size: 1.75em;
-  font-family: 'Eras Demi ITC';
+  font-family: "Eras Demi ITC";
 }
 
 #office {
   opacity: 0.4;
 }
 
-.nav-buttons{
+.nav-buttons {
   text-decoration: none;
   color: black;
 }
 
 /* Tablet Layout */
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     font-size: 18px;
   }
 }
-
-/* Desktop Layout */
+/* Desktop Layout *//*# sourceMappingURL=main.css.map */
