@@ -83,7 +83,7 @@ body {
 }
 
 /* Tablet Layout */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   body {
     font-size: 2rem;
   }
@@ -91,4 +91,13 @@ body {
     display: flex;
   }
 }
-/* Desktop Layout *//*# sourceMappingURL=main.css.map */
+/* Desktop Layout */
+@media screen and (min-width: 996px) {
+  .overlayText {
+    font-size: 2em;
+    top: 10%;
+  }
+  #logo {
+    display: flex;
+  }
+}/*# sourceMappingURL=main.css.map */

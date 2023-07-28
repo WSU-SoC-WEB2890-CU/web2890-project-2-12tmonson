@@ -1,23 +1,22 @@
 .image-wrapper {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .image-wrapper img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
+  width: 100%;
+  overflow: hidden;
+}
 
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#logo {
+  display: none;
+}
+
+/* Tablet Display */
+@media screen and (min-width: 768px) {
   #logo {
-    display: none;
-  }
-
-  
-  /* Tablet Display */
-  @media screen and (min-width: 768px) {
-    #logo {
     display: flex;
-    }
+  }
 }
 /* Desktop Display */

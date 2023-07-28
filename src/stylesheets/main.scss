@@ -1,22 +1,22 @@
 /* Mobile Layout */
 @font-face {
-  font-family: 'Caveat';
-  src: url('../images/assets/Caveat-Regular.ttf') format('truetype');
+  font-family: "Caveat";
+  src: url("../images/assets/Caveat-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Inkfree';
-  src: url('../images/assets/Inkfree.ttf') format('truetype');
+  font-family: "Inkfree";
+  src: url("../images/assets/Inkfree.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Eras Demi ITC';
-  src: url('../images/assets/ITC\ Eras\ Demi\ Regular.otf') format('truetype');
+  font-family: "Eras Demi ITC";
+  src: url("../images/assets/ITC\ Eras\ Demi\ Regular.otf") format("truetype");
 }
 
 body {
   background-color: #59433b;
-  font-family: 'Caveat';
+  font-family: "Caveat";
   color: white;
   border: 0;
   margin: 0;
@@ -48,7 +48,6 @@ body {
   justify-content: center;
 }
 
-
 #touch {
   font-size: 2em;
 }
@@ -70,7 +69,7 @@ body {
 
 #satisfy {
   font-size: 1.75em;
-  font-family: 'Eras Demi ITC';
+  font-family: "Eras Demi ITC";
 }
 
 #office {
@@ -88,7 +87,7 @@ body {
 
 /* Tablet Layout */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   body {
     font-size: 2rem;
   }
@@ -96,8 +95,18 @@ body {
   #logo {
     display: flex;
   }
-
-
 }
 
 /* Desktop Layout */
+
+@media screen and (min-width: 996px) {
+ 
+  .overlayText{
+    font-size: 2em;
+    top: 10%;
+  }
+  #logo {
+    display: flex;
+  }
+}
+  
