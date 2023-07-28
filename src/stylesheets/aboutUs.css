@@ -12,7 +12,12 @@
     display: flex;
   }
   .overlayDescription {
-    font-size: 0.75em;
+    font-size: 1.15em;
   }
 }
-/* Desktop Display *//*# sourceMappingURL=aboutUs.css.map */
+/* Desktop Display */
+@media screen and (min-width: 996px) {
+  .overlayDescription {
+    font-size: 2em;
+  }
+}/*# sourceMappingURL=aboutUs.css.map */
